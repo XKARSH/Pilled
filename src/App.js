@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Images from "./components/Images";
-import Component2 from "./components/Component2";
-import Component3 from "./components/Component3";
-import Component4 from "./components/Component4";
-import Component5 from "./components/Component5";
-import Component6 from "./components/Component6";
-import Component7 from "./components/Component7";
+import TitlePage from "./components/TitlePage";
+import GetStarted from "./components/GetStarted";
+import Logos from "./components/Logos";
+import Benefits from "./components/Benefits";
+import Products from "./components/Products";
+import Qualities from "./components/Qualities";
+import ContactUs from "./components/ContactUs";
 
 export default function App() {
   return (
@@ -20,14 +20,14 @@ export default function App() {
     >
       <div style={{ backgroundColor: "#1B1B1B" }}>
         <Navbar />
-        <Images />
-        <Component2 />
+        <TitlePage />
+        <GetStarted />
       </div>
-      <Component3 />
-      <Component4 />
-      <Component5 />
-      <Component6 />
-      <Component7 />
+      <Logos />
+      <Benefits />
+      <Products />
+      <Qualities />
+      <ContactUs />
     </div>
   );
 }

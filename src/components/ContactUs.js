@@ -10,7 +10,7 @@ import Instagram from "../images/Instagram.svg";
 import Twitter from "../images/Twitter.svg";
 import LinkedIn from "../images/LinkedIn.svg";
 
-export default function Component7() {
+export default function ContactUs() {
   return (
     <Box
       display='flex'

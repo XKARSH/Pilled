@@ -3,7 +3,7 @@ import { Box, Button, Typography } from "@mui/material";
 import arrow from "../images/long-arrow.svg";
 import Checkbox from "../images/check-square-regular.svg";
 
-export default function Component2() {
+export default function GetStarted() {
   return (
     <Box
       display='grid'

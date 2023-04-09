@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import playButton from "../images/play-button.svg";
 
-export default function Images() {
+export default function TitlePage() {
   //Using useMediaQuery Hook for determining the screen size
   const isTablet = useMediaQuery("(max-width: 1024px)");
   const isMobile = useMediaQuery("(max-width: 600px)");

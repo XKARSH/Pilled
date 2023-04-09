@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Box } from "@mui/material";
 import arrow from "../images/long-arrow.svg";
 
-export default function Component5() {
+export default function Products() {
   return (
     <>
       <Typography

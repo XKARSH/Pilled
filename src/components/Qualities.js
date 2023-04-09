@@ -16,7 +16,7 @@ const texts = [
   "Good Quality",
   "No Dusty",
 ];
-export default function Component6() {
+export default function Qualities() {
   return (
     <Box
       display='flex'
@@ -25,20 +25,17 @@ export default function Component6() {
       flexWrap='wrap'
       alignItems='left'
     >
+      {/* Heading */}
       <Typography
         sx={{
           color: "#393842",
-          fontFamily: "Playfair Display",
           fontWeight: "600",
-          display: { xs: "flex", md: "flex" },
+          fontFamily: "Playfair Display",
           fontSize: { xs: "36px", md: "70px" },
           lineHeight: { xs: "43px", md: "84px" },
           width: { xs: "324px", md: "638px" },
-          mr: { md: "364px" },
           mt: { xs: "80px", md: "200px" },
           ml: { xs: "81px", md: "477px" },
-          flexDirection: "column",
-          alignItems: "left",
           textAlign: { xs: "center", md: "center" },
         }}
       >
@@ -51,7 +48,7 @@ export default function Component6() {
           display={{ xs: "block", md: "flex" }}
           justifyContent={{ xs: "center", md: "center" }}
           mt={{ xs: "42px", md: "100px" }}
-          mb={{ xs: "20px" }}
+          mb={{ xs: "20px", md: "0px" }}
           ml={{ xs: "44px" }}
         >
           {icons.slice(0, 3).map((icon, index) => (
@@ -62,9 +59,6 @@ export default function Component6() {
               mr={2}
               mb={{ xs: "20px" }}
               display='flex'
-              flexDirection='column'
-              alignItems='center'
-              justifyContent='center'
               padding='8px'
               style={{ border: "1px solid #707070" }}
             >
@@ -100,7 +94,7 @@ export default function Component6() {
         <Box
           display={{ xs: "block", md: "flex" }}
           justifyContent='center'
-          mt={{ xs: "0px", md: "30px" }}
+          mt={{ xs: "0px", md: "10px" }}
           ml={{ xs: "44px" }}
         >
           {icons.slice(3, 6).map((icon, index) => (

@@ -8,10 +8,10 @@ import image4 from "../images/logoipsum-logo-6.svg";
 import image5 from "../images/logoipsum-logo-7.svg";
 import { Box } from "@mui/material";
 
-export default function Component3() {
+export default function Logos() {
   return (
     <Box sx={{ position: "relative" }}>
-      {/* Image List container */}
+      {/* Logo List container */}
       <ImageList
         sx={{
           mt: 0,

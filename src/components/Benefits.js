@@ -10,7 +10,7 @@ const benefits = [
   "Type more benefit",
 ];
 
-export default function Component4() {
+export default function Benefits() {
   return (
     // Use CSS grid to create a two-column layout
     <Box

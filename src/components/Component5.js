@@ -204,7 +204,7 @@ export default function Component5() {
               fontSize: "17px",
               display: "flex",
               justifyContent: "center",
-              mt: "px",
+              mt: "26px",
             }}
           >
             Memory Foam Mattress

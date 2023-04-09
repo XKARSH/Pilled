@@ -23,7 +23,6 @@ export default function Component7() {
         height: { xs: "1347px", md: "1107px" },
         flexDirection: "column",
         alignItems: "center",
-        mb: { xs: "907px", md: "0px" },
         pr: { xs: "10px" },
       }}
     >

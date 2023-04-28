@@ -15,16 +15,17 @@ export default function GetStarted() {
         sx={{
           display: "flex",
           flexDirection: "column",
-          px: { xs: "2%", md: "16%" },
+          mx: { xs: "17px", md: "134px" },
+          mt: { xs: "231px", md: "273px" },
         }}
       >
         <Typography
-          variant='body2'
           sx={{
+            fontSize: "15px",
+            lineHeight: "27px",
             color: "#D9D4D4CC",
             fontFamily: "Poppins",
-            mt: { xs: "216px", md: "283px" },
-            lineHeight: 1.8,
+            textAlign: { xs: "center", md: "left" },
           }}
         >
           That's where we come in - the folks at Oliya, with our Kickstarter
@@ -37,7 +38,6 @@ export default function GetStarted() {
               color: "#D9D4D4CC",
               fontFamily: "Poppins",
               px: "20px",
-
               fontSize: "15px",
             }}
           >
@@ -99,9 +99,9 @@ export default function GetStarted() {
       <Box
         gridColumn='span 6'
         sx={{
-          px: { xs: 1, md: 25 },
-          mt: { xs: "50px", md: "273px" },
           objectFit: "cover",
+          mx: { xs: 1, md: 25 },
+          mt: { xs: "50px", md: "273px" },
         }}
       >
         <img
@@ -114,16 +114,15 @@ export default function GetStarted() {
             backgroundColor: "#E1DDDD",
             pt: "26px",
             pl: "30px",
-            pr: "43px",
-            pb: "20px",
+            pr: "30px",
+            pb: "30px",
             ml: { xs: "25px", md: "32px" },
             maxWidth: { xs: "70%", md: "20%" },
             display: { xs: "none", md: "flex" }, //For Medium Screen Sizes
             flexDirection: "column",
             position: "absolute",
-            zIndex: "0",
-            top: "1240px",
-            left: "697px",
+            top: { xs: "1460px", md: "1240px" },
+            left: { xs: "35px", md: "697px" },
           }}
         >
           <Typography
@@ -132,9 +131,9 @@ export default function GetStarted() {
               fontFamily: "Poppins",
               fontSize: "16px",
               lineHeight: 1.5,
-              mt: 0.3,
-              ml: 0.5,
-              mr: -1,
+              mt: "2px",
+              ml: "4px",
+              mr: "8px",
             }}
           >
             "Definitely worth the investment. Really good. Keep up the excellent
@@ -146,7 +145,7 @@ export default function GetStarted() {
               fontFamily: "Poppins",
               fontWeight: "600",
               fontSize: "15px",
-              mt: 5,
+              mt: "30px",
               ml: 0.5,
               mr: -2,
             }}
@@ -173,8 +172,7 @@ export default function GetStarted() {
           sx={{
             display: { xs: "flex", md: "none" }, //For Mobile Screen Sizes
             flexDirection: "column",
-            zIndex: 1,
-            mb: "113px",
+            mb: "82px",
           }}
         >
           <Typography
@@ -189,7 +187,7 @@ export default function GetStarted() {
               zIndex: 1,
               mt: -25,
               pt: "26px",
-              pb: "30px",
+              pb: "23px",
               px: "30px",
               ml: "40px",
               mr: -1,
@@ -208,7 +206,7 @@ export default function GetStarted() {
               fontSize: "12px",
               mt: -16,
               ml: "65px",
-              mr: "70px",
+              mr: "110px",
               mb: "20px",
             }}
           >

@@ -93,7 +93,7 @@ export default function TitlePage() {
           textAlign: "center",
           alignItems: "center",
           mt: { xs: "0px", md: "-40px" },
-          ml: { xs: "15px", md: "535px" },
+          ml: { xs: "15px", md: "510px" },
           mr: { xs: "-10px", md: "170px" },
           pr: { xs: "270px", md: "79px" },
           py: "35px",
@@ -107,7 +107,7 @@ export default function TitlePage() {
           display: "flex",
           position: "absolute",
           zIndex: 2,
-          ml: { xs: "227px", md: "1050px" },
+          ml: { xs: "227px", md: "1035px" },
           mt: { xs: "10px", md: "-28px" },
           mr: { xs: "270px", md: "110px" },
         }}
